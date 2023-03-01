@@ -1,19 +1,14 @@
 package org.example.cardgame;
 
 import org.assertj.core.api.Assertions;
-import org.example.cardgame.controller.GameController;
 import org.example.cardgame.model.NormalDeck;
 import org.junit.Rule;
-import org.junit.contrib.java.lang.system.Assertion;
 import org.junit.contrib.java.lang.system.ExpectedSystemExit;
-import org.junit.contrib.java.lang.system.internal.CheckExitCalled;
 import org.junit.contrib.java.lang.system.internal.NoExitSecurityManager;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
-import org.mockito.Mock;
-import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
