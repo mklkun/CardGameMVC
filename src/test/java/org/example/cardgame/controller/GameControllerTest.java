@@ -1,6 +1,5 @@
 package org.example.cardgame.controller;
 
-import org.example.cardgame.controller.GameController;
 import org.example.cardgame.games.HighCardGameEvaluator;
 import org.example.cardgame.model.DeckFactory;
 import org.example.cardgame.view.CommandLineView;
@@ -10,8 +9,6 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
-
-import static org.assertj.core.api.Assertions.*;
 
 @ExtendWith(MockitoExtension.class)
 class GameControllerTest {
