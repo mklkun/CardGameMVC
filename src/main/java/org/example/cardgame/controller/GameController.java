@@ -11,7 +11,7 @@ import java.util.List;
 
 public class GameController {
 
-    enum GameState {
+    public enum GameState {
         ADDING_PLAYERS, CARDS_DEALT, WINNER_REVEALED;
     }
 
